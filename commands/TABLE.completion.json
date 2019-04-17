@@ -1,0 +1,54 @@
+[
+	{
+		"name": "HAS_SELECTOR()",
+		"documentation": "Returns Y or N according to the existence of the selector property or auto-selector"
+	},
+	{
+		"name": "IS_SELECTOR_HIDDEN()",
+		"documentation": "Returns Y if the selector is hidden from presentation, N otherwise"
+	},
+	{
+		"name": "DATAGROUP_TO_INCREMENT()",
+		"documentation": "The control data group for the current table"
+	},
+	{
+		"name": "NUMBER_OF_PAGES()",
+		"documentation": "The number of pages to display for the current table"
+	},
+	{
+		"name": "CURRENT_PAGE()",
+		"documentation": "The current page being displayed in the current table"
+	},
+	{
+		"name": "START_ROW()",
+		"documentation": "The start row being displayed for the current table"
+	},
+	{
+		"name": "END_ROW()",
+		"documentation": "The end row being displayed for the current table"
+	},
+	{
+		"name": "TABLE_PAGE_ACTION()",
+		"documentation": "The JavaScript to use for changing table page"
+	},
+	{
+		"name": "TABLE_PAGE()",
+		"documentation": "The number of table page"
+	},
+	{
+		"name": "PREV_TABLE_PAGE_ACTION()",
+		"documentation": "The JavaScript to use for changing to the previous table page"
+	},
+	{
+		"name": "NEXT_TABLE_PAGE_ACTION()",
+		"documentation": "The JavaScript to use for changing to the next table page"
+	},
+	{
+		"name": "FIRST_TABLE_PAGE_ACTION()",
+		"documentation": "The JavaScript to use for changing to the first table page"
+	},
+	{
+		"name": "LAST_TABLE_PAGE_ACTION()",
+		"documentation": "The JavaScript to use for changing to the last table page"
+	}
+]

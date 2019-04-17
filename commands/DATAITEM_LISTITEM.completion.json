@@ -1,0 +1,22 @@
+[
+	{
+		"name": "KEY()",
+		"documentation": "The key of the list item"
+	},
+	{
+		"name": "VALUE()",
+		"documentation": "The display value of the list item"
+	},
+	{
+		"name": "GROUPVALUE()",
+		"documentation": "The group value of the list item"
+	},
+	{
+		"name": "CHILD_INDEX()",
+		"documentation": "The index of the list item"
+	},
+	{
+		"name": "SELECTEDINDEX()",
+		"documentation": "The index in the list of the current selected item"
+	}
+]

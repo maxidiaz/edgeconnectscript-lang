@@ -1,0 +1,10 @@
+[
+	{
+		"name": "NUMBER_OF_CHILDREN()",
+		"documentation": "The number of list items for the list"
+	},
+	{
+		"name": "NAME()",
+		"documentation": "The name of the data type of the data item"
+	}
+]

@@ -1,0 +1,10 @@
+[
+	{
+		"name": "NAME()",
+		"documentation": "The name of the current process"
+	},
+	{
+		"name": "NAME().REMOVESPACES()",
+		"documentation": "The name of the current process with spaces removed"
+	}
+]

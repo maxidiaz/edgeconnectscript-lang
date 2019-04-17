@@ -1,0 +1,30 @@
+[
+	{
+		"name": "VALUE()",
+		"documentation": "The current unformatted data item value"
+	},
+	{
+		"name": "DISPLAY_VALUE()",
+		"documentation": "The formatted version of data item value (e.g with number formatting)"
+	},
+	{
+		"name": "TYPE()",
+		"documentation": "The base data type of the data item"
+	},
+	{
+		"name": "DECIMALPLACES()",
+		"documentation": "The number of decimal place"
+	},
+	{
+		"name": "LISTITEM()",
+		"documentation": ""
+	},
+	{
+		"name": "IS_MULTISELECT()",
+		"documentation": "Whether the list is multi-select"
+	},
+	{
+		"name": "DATE()",
+		"documentation": ""
+	}
+]

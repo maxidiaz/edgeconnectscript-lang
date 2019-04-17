@@ -1,0 +1,30 @@
+[
+	{
+		"name": "ITEM",
+		"documentation": "The current item, can be used to access attribute values of that item"
+	},
+	{
+		"name": "NAVROOT",
+		"documentation": "The navigation container of the current navigation item, used to get attributes"
+	},
+	{
+		"name": "PHASE",
+		"documentation": "The current phase"
+	},
+	{
+		"name": "PROCESS",
+		"documentation": "The current process"
+	},
+	{
+		"name": "CURRENTITEM",
+		"documentation": "The current presentation item"
+	},
+	{
+		"name": "CURRENTTABLE",
+		"documentation": "The current presentation table"
+	},
+	{
+		"name": "TABLE",
+		"documentation": ""
+	}
+]

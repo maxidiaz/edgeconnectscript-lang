@@ -1,0 +1,55 @@
+[{
+	"name":"IF",
+	"documentation":"a",
+	"snippet": "%IF ${1:val1} ${2:operand} ${3:val2}$ ${0} $%ENDIF$"
+},
+{
+	"name":"ELSE",
+	"documentation":"a",
+	"insertText": "%ELSE$"
+},
+{
+	"name":"FOR",
+	"documentation":"a",
+	"snippet": "%FOR ${1:initialValue} to ${2:endValue}$ ${0} $%ENDFOR$"
+},
+{
+	"name":"FOREACH",
+	"documentation":"a",
+	"snippet": "%FOREACH ${1|PROCESS,PHASE,LISTITEM IN DATAITEM,TABLECHILD IN TABLE,TABLEROW IN TABLE,TABLEPAGE IN TABLE,CHILD IN PHASE,ITEM IN SECTIONS|}$ ${0} $%ENDFOREACH$"
+},
+{
+	"name":"BREAK",
+	"documentation":"a",
+	"snippet": "%BREAK$ $%ENDBREAK$"
+},
+{
+	"name":"SET",
+	"documentation":"a",
+	"snippet": "%SET$ $%ENDSET$"
+},
+{
+	"name":"SCRIPT",
+	"documentation":"a",
+	"snippet": "%SCRIPT$ $%ENDSCRIPT$"
+},
+{
+	"name":"INCLUDE",
+	"documentation":"a",
+	"snippet": "%INCLUDE$ $%ENDINCLUDE$"
+},
+{
+	"name":"WRITE",
+	"documentation":"a",
+	"snippet": "%WRITE$ $%ENDWRITE$"
+},
+{
+	"name":"LOG",
+	"documentation":"a",
+	"snippet": "%LOG$ $%ENDLOG$"
+},
+{
+	"name":"COMMENT",
+	"documentation":"a",
+	"snippet": "%COMMENT$ $%ENDCOMMENT$"
+}]

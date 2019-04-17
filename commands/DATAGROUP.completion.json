@@ -1,0 +1,10 @@
+[
+{
+	"name": "LASTINSTANCE()",
+	"documentation": "The last instance of the data group"
+},
+{
+	"name": "FIRSTFREEINSTANCE()",
+	"documentation": "The first free instance of the data group"
+}
+]

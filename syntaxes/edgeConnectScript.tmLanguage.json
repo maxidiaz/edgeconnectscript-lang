@@ -1,0 +1,63 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"scopeName": "text.edgeconnect.script",
+	"injectionSelector": "L:text.html.derivative",
+	"patterns": [
+		{
+			"include": "#letter"
+		},
+		{
+			"include": "#command.keyword"
+		},
+		{
+			"include": "#command"
+		},
+		{
+			"include": "#dollar-replacement"
+		},
+		{
+			"include": "#edge-variable"
+		}
+	],
+	"repository": {
+		"command.keyword": {
+			"patterns": [
+				{
+					"name": "constant.numeric.edgeConnectScript",
+					"match": "\\b(IF|ELSE|ENDIF|FOR|ENDFOR|BREAK|ENDBREAK|FOREACH|ENDFOREACH|LOG|ENDLOG|SET|ENDSET|WRITE|ENDWRITE|SCRIPT|ENDSCRIPT|INCLUDE|ENDINCLUDE|COMMENT|ENDCOMMENT)\\b"
+				}
+			]
+		},
+		"command": {
+			"name": "constant.numeric.edgeConnectScript",
+			"begin": "\\$%",
+			"end": "\\$",
+			"patterns": [
+				{
+					"include": "#command.keyword"
+				},
+				{
+					"include": "#letter"
+				}
+			]
+		},
+		"edge-variable": {
+			"patterns": [
+				{
+					"name": "invalid.illegal.edgeConnectScript",
+					"match": "(\\![a-zA-Z0-9]+)"
+				}
+			]
+		},
+		"dollar-replacement": {
+			"name": "string.quoted.edgeConnectScript",
+			"begin": "\\$\\$",
+			"end": "\\$",
+			"patterns": [
+				{
+					"include": "#edge-variable"
+				}
+			]
+		}
+	}
+}

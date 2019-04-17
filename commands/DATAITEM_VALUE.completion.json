@@ -1,0 +1,14 @@
+[
+	{ 
+		"name" : "ESCAPEFORJS()",
+		"documentation": "JS escaped data item value"
+	},
+	{ 
+		"name" : "DATE()",
+		"documentation": ""
+	},
+	{ 
+		"name" : "DATE().TIME()",
+		"documentation": "The time part of a date"
+	}
+]

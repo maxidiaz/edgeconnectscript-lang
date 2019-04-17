@@ -1,0 +1,14 @@
+[
+	{
+		"name": "NAME()",
+		"documentation": "The name of the current phase"
+	},
+	{
+		"name": "NAME().REMOVESPACES()",
+		"documentation": "The name of the current phase with spaces removed"
+	},
+	{
+		"name": "CURRENT_MENU_ITEM()",
+		"documentation": "The current active menu item in the phase"
+	}
+]

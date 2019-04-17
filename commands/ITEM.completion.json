@@ -1,0 +1,310 @@
+[
+{
+	"name": "TYPE()",
+	"documentation": "The entity type or presention type of the current item"
+},
+{
+	"name": "PARENT()",
+	"documentation": "The parent of the current item"
+},
+{
+	"name": "PARENT_CONTAINER()",
+	"documentation": "The parent container (section, column, tab) of the current item."
+},
+{
+	"name": "ENTITYNAME()",
+	"documentation": "If there is an associated entity, the name of it"
+},
+{
+	"name": "ENTITYEID()",
+	"documentation": "If there is an associated entity, the EID of it"
+},
+{
+	"name": "NAME()",
+	"documentation": "The name of the current item"
+},
+{
+	"name": "ID()",
+	"documentation": "The presentation ID of the current item"
+},
+{
+	"name": "COMPONENT_PREFIX()",
+	"documentation": "The component prefix of the current item"
+},
+{
+	"name": "EID()",
+	"documentation": "The EID of the current item"
+},
+{
+	"name": "JSID()",
+	"documentation": "A JavaScript safe version of the presentation ID"
+},
+{
+	"name": "RTID()",
+	"documentation": "The runtime ID of the current item"
+},
+{
+	"name": "DEPTH()",
+	"documentation": "The depth of the current item within the phase or process"
+},
+{
+	"name": "CHILD_INDEX()",
+	"documentation": "The child index of current item within its parent"
+},
+{
+	"name": "CHECKHIDDEN()",
+	"documentation": "The JavaScript to use for checking hiddens"
+},
+{
+	"name": "DISPLAY_TEXT()",
+	"documentation": "The display text for the current item"
+},
+{
+	"name": "READONLYSTYLE()",
+	"documentation": "The read-only format for the current question"
+},
+{
+	"name": "MINVALUE()",
+	"documentation": "The minimum value specified for the current question"
+},
+{
+	"name": "DISPLAY_MINVALUE()",
+	"documentation": "The formatted minimum value specified for the current question"
+},
+{
+	"name": "MINLENGTH()",
+	"documentation": "The minimum length specified for the current question"
+},
+{
+	"name": "MAXVALUE()",
+	"documentation": "The maximum value specified for the current question"
+},
+{
+	"name": "DISPLAY_MAXVALUE()",
+	"documentation": "The formatted maximum value specified for the current question"
+},
+{
+	"name": "MAXLENGTH()",
+	"documentation": "The maximum length specified for the current question"
+},
+{
+	"name": "REGEXP()",
+	"documentation": "The regular expression specified for the current question"
+},
+{
+	"name": "LISTLENGTH()",
+	"documentation": "The number of items within the list used by the current question"
+},
+{
+	"name": "LISTPROMPT()",
+	"documentation": "The list prompt to use for the current question"
+},
+{
+	"name": "VALIDATION()",
+	"documentation": "The JavaScript to use for invoking the validation on the current question"
+},
+{
+	"name": "QLR()",
+	"documentation": "The JavaScript to use for invoking any Question Level Rules on the current question"
+},
+{
+	"name": "BBQLR()",
+	"documentation": "The JavaScript to use for invoking any Question Level Rules on the current question"
+},
+{
+	"name": "ANSWER_EC_GENERATE()",
+	"documentation": "The HTML generated for the answer of the current question"
+},
+{
+	"name": "MAND_CHR_IMG()",
+	"documentation": "The mandatory character or image"
+},
+{
+	"name": "HELP_IMG()",
+	"documentation": "The help image"
+},
+{
+	"name": "HELP_ICON_HINT()",
+	"documentation": "The help icon hint text"
+},
+{
+	"name": "GROUP_WITH_PREVIOUS()",
+	"documentation": "Whether the current question is grouped with previous"
+},
+{
+	"name": "HIDE_QUESTION_PART()",
+	"documentation": "Whether the current question have the question part hidden"
+},
+{
+	"name": "ROW_ID()",
+	"documentation": "The question row id"
+},
+{
+	"name": "LINE_ABOVE_CELL_ID()",
+	"documentation": "The line above cell id"
+},
+{
+	"name": "QUESTION_COL_ID()",
+	"documentation": "The question column id"
+},
+{
+	"name": "MANDATORY_COL_ID()",
+	"documentation": "The mandatory column id"
+},
+{
+	"name": "PREFIX_COL_ID()",
+	"documentation": "The prefix column id"
+},
+{
+	"name": "ANSWER_COL_ID()",
+	"documentation": "The answer column id"
+},
+{
+	"name": "HELP_COL_ID()",
+	"documentation": "The help column id"
+},
+{
+	"name": "LINE_BELOW_CELL_ID()",
+	"documentation": "The line below cell id"
+},
+{
+	"name": "SPACING_CELL_ID()",
+	"documentation": "The cpacing cell id"
+},
+{
+	"name": "NAVIGATION()",
+	"documentation": "The JavaScript tp use for navigating"
+},
+{
+	"name": "INPHASE()",
+	"documentation": "Whether the navigation container is displayed in the current phase"
+},
+{
+	"name": "VISITEDSTEP()",
+	"documentation": "Whether the navigation item has been visited"
+},
+{
+	"name": "CURRENTSTEP()",
+	"documentation": "Whether the navigation item is the current one"
+},
+{
+	"name": "FUTURESTEP()",
+	"documentation": "Whether the navigation item is a future one"
+},
+{
+	"name": "ONCLICK()",
+	"documentation": "The JavaScript to use for the onclick() call"
+},
+{
+	"name": "HEADING_LEVEL()",
+	"documentation": "The heading level of a heading"
+},
+{
+	"name": "DATEFORMAT()",
+	"documentation": "The date format for the current question"
+},
+{
+	"name": "IS_SPLITDATE()",
+	"documentation": "Whether the date is being displayed in parts"
+},
+{
+	"name": "DATEPARTS",
+	"documentation": "The date part to use for the specified index"
+},
+{
+	"name": "DATEPARTS[1]",
+	"documentation": "The date part being used in position 1"
+},
+{
+	"name": "DATEPARTS[2]",
+	"documentation": "The date part being used in position 2"
+},
+{
+	"name": "DATEPARTS[3]",
+	"documentation": "The date part being used in position 3"
+},
+{
+	"name": "EC_GENERATE()",
+	"documentation": "The HTML that would normal be generated"
+},
+{
+	"name": "CHILD",
+	"documentation": "The child of the item, e.g. CHILD[0] to get the first child"
+},
+{
+	"name": "IS_READONLY()",
+	"documentation": "Whether the current item is read only"
+},
+{
+	"name": "IS_HIDDEN()",
+	"documentation": "Whether the current item or its parents are hidden"
+},
+{
+	"name": "IS_ITEM_HIDDEN()",
+	"documentation": "Whether the current item is hidden"
+},
+{
+	"name": "IS_MANDATORY()",
+	"documentation": "Whether the current item is mandatory"
+},
+{
+	"name": "IS_ERROR()",
+	"documentation": "Whether the current item is in error"
+},
+{
+	"name": "IS_INFO()",
+	"documentation": "Whether the current item has an info message"
+},
+{
+	"name": "IS_WARNING()",
+	"documentation": "Whether the current item has a warning message"
+},
+{
+	"name": "ERROR_MSG()",
+	"documentation": "The error message for the current item"
+},
+{
+	"name": "INFO_MSG()",
+	"documentation": "The information message for the current item"
+},
+{
+	"name": "WARNING_MSG()",
+	"documentation": "The warning message for the current item"
+},
+{
+	"name": "IS_FIRSTCHILD()",
+	"documentation": "Whether the current item is the first child"
+},
+{
+	"name": "IS_LASTCHILD()",
+	"documentation": "Whether the current item is the last child"
+},
+{
+	"name": "NUMBER_OF_CHILDREN()",
+	"documentation": "The number of children that the current item has"
+},
+{
+	"name": "STYLES()",
+	"documentation": "The style classes for the current item"
+},
+{
+	"name": "INLINE_STYLES()",
+	"documentation": "The inline styles for the current item"
+},
+{
+	"name": "DATAGROUP()",
+	"documentation": "The processed name of the data group for the current item"
+},
+{
+	"name": "DATAITEM()",
+	"documentation": "The processed name of the data item for the current item"
+},
+{
+	"name": "NUMBER_OF_ROWS()",
+	"documentation": "The number of rows to display for the current table"
+},
+{
+	"name": "SORT_ACTION()",
+	"documentation": "The JavaScript to use for sorting the current table column"
+}
+]
