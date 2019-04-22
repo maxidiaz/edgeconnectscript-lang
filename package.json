@@ -2,7 +2,7 @@
     "name": "edgeconnectscript-lang",
     "displayName": "edgeConnectScript",
     "description": "Syntax highlighting for edgeConnectScript language",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "MaxiDiaz",
     "repository": {
         "url": "https://github.com/maxidiaz/edgeconnectscript-lang",
