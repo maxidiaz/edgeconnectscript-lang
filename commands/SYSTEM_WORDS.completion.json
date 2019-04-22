@@ -1,0 +1,446 @@
+[
+	{
+		"name": "SYSDATE",
+		"documentation": "Current date in the format dd/mm/yyyy; e.g. 04/07/2005"
+	},
+	{
+		"name": "SYSDATETIME",
+		"documentation": "Current date and time in the format dd/mm/yyyy hh:mm:ss; e.g. 04/07/2005 13:50:45"
+	},
+	{
+		"name": "SYSTIME",
+		"documentation": "Current time in 24hr format hh:mm:ss; e.g. 13:50:45"
+	},
+	{
+		"name": "SYSDAY",
+		"documentation": "Current day of the month in the format dd; e.g. 04"
+	},
+	{
+		"name": "SYSMONTH",
+		"documentation": "Current month in the format mm; e.g. 07"
+	},
+	{
+		"name": "SYSYEAR",
+		"documentation": "Current year in the format yyyy e.g. 2005"
+	},
+	{
+		"name": "SYSDAYOFWEEK",
+		"documentation": "Current day of the week as an integer between 1-7 (Sun-Sat)"
+	},
+	{
+		"name": "SYSHOUR",
+		"documentation": "Current hour in the 12 hour format hh; e.g. 01 for 1PM or 1AM"
+	},
+	{
+		"name": "SYSHOUR_OF_DAY",
+		"documentation": "Current hour in the 24 hour format hh; e.g. 13"
+	},
+	{
+		"name": "SYSMINUTE",
+		"documentation": "Current minute in the format mm; e.g. 50"
+	},
+	{
+		"name": "SYSSECOND",
+		"documentation": "Current second in the format ss; e.g. 45"
+	},
+	{
+		"name": "SYSAM_PM",
+		"documentation": "Current period of the day, i.e. AM or PM"
+	},
+	{
+		"name": "SYSTIMEMILLIS",
+		"documentation": "Number of milliseconds since January 1, 1970, 00:00:00 GMT; e.g. 1120481445961"
+	},
+	{
+		"name": "SYSTIMENANOS",
+		"documentation": "<html>Number of nanoseconds expressed in seconds<br><br><b>NB: This time is not related to any real time and can only be used to measure elapsed time</b><br></html>"
+	},
+	{
+		"name": "SESSION_ID",
+		"documentation": "Current session ID"
+	},
+	{
+		"name": "PROCESS",
+		"documentation": "Name of the current process"
+	},
+	{
+		"name": "PHASE",
+		"documentation": "Name of the current phase"
+	},
+	{
+		"name": "PHASESTACK",
+		"documentation": "Pipe separated list of phases in stack"
+	},
+	{
+		"name": "FULL_PHASE_PATH",
+		"documentation": "The full path of current phase including any phase components being used."
+	},
+	{
+		"name": "CONNECT_ACTIVE_TAB",
+		"documentation": "List of the current active tabs in a page"
+	},
+	{
+		"name": "PRESENTATION",
+		"documentation": "Name of the current presentation"
+	},
+	{
+		"name": "THEME",
+		"documentation": "Name of the current theme"
+	},
+	{
+		"name": "ACTIONURL",
+		"documentation": "The URL that the form POST's"
+	},
+	{
+		"name": "QUESTION_CONSTRAINT",
+		"documentation": "Used by appropriate validation messages to display the value of the constraint the question failed on"
+	},
+	{
+		"name": "QUESTION_TEXT",
+		"documentation": "Used by appropriate validation messages to display the label of the question"
+	},
+	{
+		"name": "VALIDATION_ERROR_COUNT",
+		"documentation": "If there are any mandatory errors or validation errors, this is a count of how many errors exist."
+	},
+	{
+		"name": "TABLE_CURRENT_PAGE",
+		"documentation": "For tables with automatic paging, this indicates the current page of the table"
+	},
+	{
+		"name": "TABLE_SORT_COLUMN",
+		"documentation": "This indicates the index of the question which is being sorted on"
+	},
+	{
+		"name": "TABLE_SORT_DIRECTION",
+		"documentation": "This indicates the direction of the sort (ASC/DESC)"
+	},
+	{
+		"name": "TABLE_LAST_PAGE",
+		"documentation": "For tables with automatic paging, this indicates the last page of the table"
+	},
+	{
+		"name": "APPLICATION_MODE",
+		"documentation": "Application Mode"
+	},
+	{
+		"name": "LANGUAGE_MAP_ALIAS",
+		"documentation": "The alias for the currently set language map"
+	},
+	{
+		"name": "LANGUAGE_MAP_CODE",
+		"documentation": "The iso code for the currently set language"
+	},
+	{
+		"name": "LANGUAGE_MAP_REQUEST_ALIAS",
+		"documentation": "The requested alias for the language map to be set"
+	},
+	{
+		"name": "HTTP_HEADER",
+		"documentation": "Access to HTTP Header parameters by $$HTTP_HEADER.<parameter name>$"
+	},
+	{
+		"name": "HTTP_REQUEST",
+		"documentation": "Access to HTTP Servlet Request Object methods (those with no arguments) using $$HTTP_REQUEST.<method_name>()$"
+	},
+	{
+		"name": "REQUEST_LOCALES",
+		"documentation": "<html>The locales from the request formatted as a HTTP header Accept-Language parameter<br>For Example: en-gb,en:q=0.5</html>"
+	},
+	{
+		"name": "BROWSER_PAGE_BEEN_VISITED",
+		"documentation": "If we are processing a browser navigation action whether the cached page has been visited before and is still in the user's phase stack. This will have a value of Y or N."
+	},
+	{
+		"name": "BROWSER_NAVIGATION_PHASE",
+		"documentation": "If we are processing a browser navigation action where that cached page is expecting to go."
+	},
+	{
+		"name": "BROWSER_FEATURES",
+		"documentation": "This will give access to whether a feature is available within the browser being used. To use this you will need to add the name of feature to the word, e.g. BROWSER_FEATURESinputtypes.date to check if the HTML 5 date input is supported."
+	},
+	{
+		"name": "LANGUAGE_MAPS",
+		"documentation": "List of language maps defined for the project."
+	},
+	{
+		"name": "REMOTEUSER",
+		"documentation": "Name of the windows logged on user (if supported by the Application Server)"
+	},
+	{
+		"name": "NAMESPACE",
+		"documentation": "Unique name for this portlet on an specific portal page"
+	},
+	{
+		"name": "CONTEXTPATH",
+		"documentation": "Name of the application context from the Application Server"
+	},
+	{
+		"name": "PROJECT_NAME",
+		"documentation": "Project name without extension"
+	},
+	{
+		"name": "CONTROLLING_SERVLET",
+		"documentation": "The name of the main controlling servlet required by calls to Ajax services"
+	},
+	{
+		"name": "PROJECT",
+		"documentation": "Project path and name without extension"
+	},
+	{
+		"name": "PROJECTHOME",
+		"documentation": "Project directory at runtime"
+	},
+	{
+		"name": "PROJECTPATH",
+		"documentation": "Location of the project file at runtime"
+	},
+	{
+		"name": "DEPLOY_HOME",
+		"documentation": "Folder into which deployments are stored"
+	},
+	{
+		"name": "PRESENTATIONTYPE",
+		"documentation": "Presentation type, e.g. Rich HTML, Pure HTML, Offline or Portlet"
+	},
+	{
+		"name": "IMAGE_LOCATION",
+		"documentation": "Client side location for images"
+	},
+	{
+		"name": "HTML_LOCATION",
+		"documentation": "Client side location for html files"
+	},
+	{
+		"name": "JAVASCRIPT_LOCATION",
+		"documentation": "Client side location for javascript files"
+	},
+	{
+		"name": "STYLESHEET_LOCATION",
+		"documentation": "Client side location for stylesheets"
+	},
+	{
+		"name": "STARTUP_ERROR_MESSAGE",
+		"documentation": "If the project startup rules failed then this will display that error message."
+	},
+	{
+		"name": "STARTUP_ERROR_CODE",
+		"documentation": "If the project startup rules failed then if an error code is associated with the error this will display that error code."
+	},
+	{
+		"name": "SESSIONTIMEOUT",
+		"documentation": "The session timeout value for the application"
+	},
+	{
+		"name": "IS_RUNPREVIEW",
+		"documentation": "Is the current process being run from the Developer IDE"
+	},
+	{
+		"name": "RUNPREVIEW_PORT",
+		"documentation": "The port number being used by Run/Preview"
+	},
+	{
+		"name": "IS_USING_DATA_SETS",
+		"documentation": "Is the project allowed to use data sets and has the project been set to use a data set."
+	},
+	{
+		"name": "EDGECONNECT_VERSION_INFO",
+		"documentation": "The version information for edgeConnect"
+	},
+	{
+		"name": "RTE_LICENSE_EXPIRY",
+		"documentation": "The license expiration date for the application runtime"
+	},
+	{
+		"name": "COMPONENT_ID_PREFIX",
+		"documentation": "When a component has been called, contains the prefix to be used by component elements, e.g, C1: etc"
+	},
+	{
+		"name": "COMPONENT_CALLER",
+		"documentation": "When a component has been called, contains the name of the caller"
+	},
+	{
+		"name": "COMPONENT_CALLER_ID",
+		"documentation": "When a component has been called, contains the id of the caller and it's callers"
+	},
+	{
+		"name": "LIBRARY_NAME",
+		"documentation": "Library name without extension"
+	},
+	{
+		"name": "LIBRARY",
+		"documentation": "Library path and name without extension"
+	},
+	{
+		"name": "LIBRARY_CONTEXTPATH",
+		"documentation": "Name of the application context from the Application Server for the Library"
+	},
+	{
+		"name": "LIBRARY_HOME",
+		"documentation": "Contains the directory of the library"
+	},
+	{
+		"name": "LIBRARY_PATH",
+		"documentation": "Contains the location of the library file at runtime"
+	},
+	{
+		"name": "COMPONENT_TYPE",
+		"documentation": "Outputs the type of the current component, i.e. '' if not a component, otherwise 'PHASE', 'RULE' or 'ITEM_GROUP'"
+	},
+	{
+		"name": "BROADCAST_MESSAGE",
+		"documentation": "Message being broadcast from the Broadcast Rule"
+	},
+	{
+		"name": "PORTLETACTIONURL",
+		"documentation": "Portlet URL to POST form data and implement an action"
+	},
+	{
+		"name": "PORTLETACTIONURL.PARAMETERS",
+		"documentation": "Portlet URL with parameters that POST an action"
+	},
+	{
+		"name": "PORTLETVIEWURL",
+		"documentation": "Portlet URL to get a new view (refresh) without POSTing data"
+	},
+	{
+		"name": "PORTLETACTIONNORMALURL",
+		"documentation": "Portlet URL to POST form data and implement an action, show the portlet in Normal state"
+	},
+	{
+		"name": "PORTLETVIEWNORMALURL",
+		"documentation": "Portlet URL to get a new view (refresh) without POSTing data, show the portlet in Normal state"
+	},
+	{
+		"name": "PORTLETACTIONMAXIMIZEDURL",
+		"documentation": "Portlet URL to POST form data and implement an action, show the portlet in Maximized state"
+	},
+	{
+		"name": "PORTLETVIEWMAXIMIZEDURL",
+		"documentation": "Portlet URL to get a new view (refresh) without POSTing data, show the portlet in Maximized state"
+	},
+	{
+		"name": "PORTLETACTIONMINIMIZEDURL",
+		"documentation": "Portlet URL to POST form data and implement an action, show the portlet in Minimized state"
+	},
+	{
+		"name": "PORTLETVIEWMINIMIZEDURL",
+		"documentation": "Portlet URL to get a new view (refresh) without POSTing data, show the portlet in Minimized state"
+	},
+	{
+		"name": "PORTLETWINDOWSTATE",
+		"documentation": "Window state either \"maximized\", \"minimized\", \"normal\", values case sensitive"
+	},
+	{
+		"name": "SESSION_DEBUG_ID",
+		"documentation": ""
+	},
+	{
+		"name": "PAGE",
+		"documentation": ""
+	},
+	{
+		"name": "PRODUCT",
+		"documentation": ""
+	},
+	{
+		"name": "FORMCONTENT",
+		"documentation": ""
+	},
+	{
+		"name": "INPUT_IN_ERROR",
+		"documentation": ""
+	},
+	{
+		"name": "INPUTS_IN_ERROR",
+		"documentation": ""
+	},
+	{
+		"name": "INPUTS_IN_ERROR_COUNT",
+		"documentation": ""
+	},
+	{
+		"name": "SESSION_DEBUG_INFO",
+		"documentation": ""
+	},
+	{
+		"name": "ERROR_WITHOUT_CODE",
+		"documentation": "Error code to indicate that the error does not have a specific error code."
+	},
+	{
+		"name": "ERROR_UNABLE_TO_LOCATE",
+		"documentation": "Error code for when the RTE is unable to locate a project or component library to be loaded."
+	},
+	{
+		"name": "ERROR_UNABLE_TO_LOAD",
+		"documentation": "Error code for when the RTE is unable to load a project or component library due to an error during the parsing of the file."
+	},
+	{
+		"name": "ERROR_LOW_MEMORY",
+		"documentation": "Error code for when the RTE is unable to load a project or component library due to low memory."
+	},
+	{
+		"name": "ERROR_PROCESS_NOT_FOUND",
+		"documentation": "Error code for when the RTE is unable to find the required start process to use."
+	},
+	{
+		"name": "ERROR_BACK_NOT_ALLOWED",
+		"documentation": "Error code for when the end user has tried to go back in a situation where it is not supported."
+	},
+	{
+		"name": "ERROR_FORWARD_NOT_ALLOWED",
+		"documentation": "Error code for when the end user has tried to go forward in a situation where it is not supported."
+	},
+	{
+		"name": "ERROR_NO_NEXT_PHASE",
+		"documentation": "Error code for when the end user has tried to go forward but there is no phase on the stack to go to."
+	},
+	{
+		"name": "ERROR_PHASE_NOT_FOUND",
+		"documentation": "Error code for when the end user has tried to go to a phase that cannot be found."
+	},
+	{
+		"name": "ERROR_PHASE_NOT_VISITED",
+		"documentation": "Error code for when the end user has tried to go back to a phase that has not been visitied."
+	},
+	{
+		"name": "COMPONENT_MAPPING_ERROR",
+		"documentation": "Error code for when the invocation of a component has failed due to one or more mappings being in error, perhaps because they are out of date."
+	},
+	{
+		"name": "LM_ERROR_UNABLE_TO_LOCATE",
+		"documentation": "Error code for when the RTE is unable to locate a language map."
+	},
+	{
+		"name": "LM_ERROR_UNABLE_TO_LOAD",
+		"documentation": "Error code for when the RTE is unable to load a language map."
+	},
+	{
+		"name": "LM_ERROR_UNSUPPORTED_TYPE",
+		"documentation": "Error code for when the RTE is unable to locate a language map manager for the specified language map."
+	},
+	{
+		"name": "LM_ERROR_DUPLICATE_ALIAS",
+		"documentation": "Error code for when the RTE is unable to load a language map because the alias is already in use."
+	},
+	{
+		"name": "LM_ERROR_UNKNOWN_ALIAS",
+		"documentation": "Error code for when the RTE is unable to find the specified language map alias."
+	},
+	{
+		"name": "PRESENTATIONTYPE.LAYOUTCONTROL",
+		"documentation": "Determine if current presentation is using divs or tables"
+	},
+	{
+		"name": "PRESENTATIONTYPE.LAYOUTDIRECTION",
+		"documentation": "Determine the direction of the layout"
+	},
+	{
+		"name": "PRESENTATIONTYPE.DECIMALSYMBOL",
+		"documentation": "The digit group symbol defined by the current presentation"
+	},
+	{
+		"name": "PRESENTATIONTYPE.DIGITGROUPSYMBOL",
+		"documentation": "The decimal separator symbol defined by the current presentation"
+	}
+]

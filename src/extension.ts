@@ -83,6 +83,8 @@ export function activate(context: vscode.ExtensionContext) {
 		buildCompletionProvider(["PROCESS."], "PROCESS", "."),
 		buildCompletionProvider(["TABLE."], "TABLE", "."),
 		buildCompletionProvider(null, "WIDGET_KEYWORDS", null),
+		buildCompletionProvider(null, "SYSTEM_WORDS", null),
+		buildCompletionProvider(["DEVICE_INFO."], "DEVICE_INFO", "."),
 	]
 
 	context.subscriptions.push(...completionProviders);

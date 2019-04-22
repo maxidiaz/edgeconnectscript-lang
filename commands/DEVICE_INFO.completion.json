@@ -1,0 +1,74 @@
+[
+	{
+		"name": "bodyHeight",
+		"documentation": "The height of the document body"
+	},
+	{
+		"name": "bodyWidth",
+		"documentation": "The width of the document body"
+	},
+	{
+		"name": "documentHeight",
+		"documentation": "The height of the document"
+	},
+	{
+		"name": "documentWidth",
+		"documentation": "The width of the document"
+	},
+	{
+		"name": "screenHeight",
+		"documentation": "The height of the screen"
+	},
+	{
+		"name": "screenWidth",
+		"documentation": "The width of the screen"
+	},
+	{
+		"name": "screenOrientation",
+		"documentation": "The orientation of the screen"
+	},
+	{
+		"name": "windowHeight",
+		"documentation": "The height of the window"
+	},
+	{
+		"name": "windowWidth",
+		"documentation": "The width of the window"
+	},
+	{
+		"name": "isHybrid",
+		"documentation": "Whether this is a Hybrid project or not"
+	},
+	{
+		"name": "cordova",
+		"documentation": "Information about the Cordova plugin"
+	},
+	{
+		"name": "model",
+		"documentation": "The model of the device"
+	},
+	{
+		"name": "platform",
+		"documentation": "The platform of the device"
+	},
+	{
+		"name": "uuid",
+		"documentation": "The Universal Unique Identifier of the device"
+	},
+	{
+		"name": "version",
+		"documentation": "The version of the device"
+	},
+	{
+		"name": "usePushNotifications",
+		"documentation": "Whether the device is using push notifications"
+	},
+	{
+		"name": "cloudMessagingId",
+		"documentation": "Cloud messaging ID property"
+	},
+	{
+		"name": "currentDevice",
+		"documentation": "The current device category"
+	}
+]
