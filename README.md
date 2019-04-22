@@ -3,7 +3,7 @@
 Syntax highlighting, completion suggestions and snippets for edgeConnect Script
 
 
-![Imgur](https://i.imgur.com/kwrSKxo.gifv)
+![Imgur](https://i.imgur.com/rbMLqKB.gif)
 
 
 ## Release Notes
